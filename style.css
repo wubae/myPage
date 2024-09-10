@@ -25,13 +25,16 @@ body{
         padding: 20px;
         border-radius: 20px;
         margin: 10px auto;
+        max-width: 90vw;
     }
 }
 
 @media (max-width: 480px){
     body{
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 50px;
+        margin: 5px auto;
+        max-width: 90vw;
     }
 }
 /*Header 1 with White Font*/
