@@ -1,6 +1,12 @@
 /*Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+/*Maintain aspect ratio*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /*White Round Border around Website Info*/
 /*Padding, Margin, and Width for Dimensions and Scaling*/
 /*Black Background and Border Radius to add round corners*/
