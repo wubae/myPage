@@ -93,11 +93,11 @@ td{
 @media (max-width: 768px){
     table{
         width: 45%;
-        font-size: 7px;
+        font-size: 6px;
     }
 
     th, td{
-        padding: 5px;
+        padding: 4px;
     }
 }
 /*Email Button Styling*/
