@@ -12,12 +12,27 @@ img{
 /*Black Background and Border Radius to add round corners*/
 body{
     border: 2px solid white;
-    padding: 100px;
-    margin: 50px auto;
-    width: 70%;
+    padding: 50px;
+    margin: 20px auto;
+    width: 100%;
     max-width: 1000px;
     background-color: black;
     border-radius: 100px;
+}
+
+@media (max-width: 768px){
+    body{
+        padding: 20px;
+        border-radius: 20px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
 /*Header 1 with White Font*/
 /*Orbitron Font from Google Font*/
