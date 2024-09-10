@@ -1,41 +1,17 @@
 /*Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-/*Maintain aspect ratio*/
-img{
-    max-width: 100%;
-    height: auto;
-}
-
 /*White Round Border around Website Info*/
 /*Padding, Margin, and Width for Dimensions and Scaling*/
 /*Black Background and Border Radius to add round corners*/
 body{
     border: 2px solid white;
-    padding: 50px;
-    margin: 20px auto;
+    padding: 100px;
+    margin: 50px auto;
     width: 100%;
     max-width: 1000px;
     background-color: black;
     border-radius: 100px;
-}
-
-@media (max-width: 768px){
-    body{
-        padding: 20px;
-        border-radius: 20px;
-        margin: 10px auto;
-        max-width: 90vw;
-    }
-}
-
-@media (max-width: 480px){
-    body{
-        padding: 10px;
-        border-radius: 50px;
-        margin: 5px auto;
-        max-width: 90vw;
-    }
 }
 /*Header 1 with White Font*/
 /*Orbitron Font from Google Font*/
@@ -44,7 +20,7 @@ h1{
     color:white;
     font-family: "Orbitron", sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 2rem;
 }
 /*Header 2 with White Font, Orbitron Font, Aligned Center*/
 h2{
@@ -84,6 +60,7 @@ p{
 /*Styling for table, black font*/
 table {
     width: 100%;
+    height: auto;
     color: black;
 }
 /*Table header background color is skyblue*/
