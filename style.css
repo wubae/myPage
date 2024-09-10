@@ -30,7 +30,7 @@ h1{
     color:white;
     font-family: "Orbitron", sans-serif;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 /*Header 2 with White Font, Orbitron Font, Aligned Center*/
 h2{
@@ -92,12 +92,12 @@ td{
 
 @media (max-width: 768px){
     table{
-        width: 40%;
-        font-size: 7px;
+        width: 35%;
+        font-size: 5px;
     }
 
     th, td{
-        padding: 4px;
+        padding: 3px;
     }
 }
 /*Email Button Styling*/
