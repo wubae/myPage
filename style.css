@@ -13,7 +13,7 @@ body{
     background-color: black;
     border-radius: 100px;
 }
-
+/*Mobile Dimensions*/
 @media (max-width: 768px){
     body{
         padding: 20px;
@@ -89,7 +89,7 @@ td{
     text-align: center;
     padding: 5px;
 }
-
+/*Table Mobile Dimensions*/
 @media (max-width: 768px){
     table{
         width: 40%;
