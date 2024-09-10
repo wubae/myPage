@@ -11,6 +11,10 @@ img{
 /*Padding, Margin, and Width for Dimensions and Scaling*/
 /*Black Background and Border Radius to add round corners*/
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     border: 2px solid white;
     padding: 50px;
     margin: 20px auto;
