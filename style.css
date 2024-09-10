@@ -1,0 +1,99 @@
+/*Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/*White Round Border around Website Info*/
+/*Padding, Margin, and Width for Dimensions and Scaling*/
+/*Black Background and Border Radius to add round corners*/
+body{
+    border: 2px solid white;
+    padding: 100px;
+    margin: 50px auto;
+    width: 70%;
+    max-width: 1000px;
+    background-color: black;
+    border-radius: 100px;
+}
+/*Header 1 with White Font*/
+/*Orbitron Font from Google Font*/
+/*Font aligned to the center and sized*/
+h1{
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+/*Header 2 with White Font, Orbitron Font, Aligned Center*/
+h2{
+    color:white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+/*Parapgraphs has white font, Orbitron Font*/
+p{
+    color:white;
+    font-family: "Orbitron", sans-serif;
+}
+/*Class to align objects to the center*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Landscape image zoom effect on hover*/
+.landscape-zoom img{
+    width: 75%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.landscape-zoom img:hover{
+    transform: scale(1.05, 1.05);
+}
+/*Portrait image zoom effect on hover*/
+.portrait-zoom img{
+    width: 60%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50px;
+}
+.portrait-zoom img:hover{
+    transform: scale(1.05, 1.05);
+}
+/*Styling for table, black font*/
+table {
+    width: 100%;
+    color: black;
+}
+/*Table header background color is skyblue*/
+/*Font color black*/
+/*Aligned to the center*/
+th{
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+/*Table data background color is lightgrey*/
+/*Aligned to the center*/
+td{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 5px;
+}
+/*Email Button Styling*/
+/*Background color blue, font color white*/
+/*No border, rounded edges, text aligned to the center*/
+/*Text decoration to get rid of underline*/
+.email-button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*Change background color on hover*/
+.email-button:hover{
+    background-color: #005f73;
+}
