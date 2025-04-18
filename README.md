@@ -1,4 +1,2 @@
-# myPage
-website for strength &amp; powerlifting coaching
-
-Test
+# GUI Website
+This is a website created for a Graphical User Interface (GUI) I assignment.
